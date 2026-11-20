@@ -1,0 +1,1 @@
+{ "name": "dcf-drops", "private": true, "scripts": { "deploy": "wrangler deploy" }, "devDependencies": { "wrangler": "^4" } }

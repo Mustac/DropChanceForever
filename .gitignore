@@ -1,0 +1,5 @@
+node_modules/
+.wrangler/
+*.exe
+*.syso
+companion/res/app.res

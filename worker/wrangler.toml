@@ -1,0 +1,17 @@
+# Drop Chance Forever: the cloud mailbox. Cloudflare builds and deploys this folder on every push to main.
+name = "dcf-drops"
+main = "worker.js"
+compatibility_date = "2025-09-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "dcf-drops"
+database_id = "8037a2b2-529e-4c47-8511-92bf88369099"
+
+[[kv_namespaces]]
+binding = "DATA"
+id = "dcb11cbed0c843d8bf98320af35b3562"
+
+[triggers]
+crons = ["17 3 * * *"]
