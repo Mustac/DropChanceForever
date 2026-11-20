@@ -17,7 +17,7 @@
 // here (HOME_KEY), so nothing secret is in this code. Internet addresses are never kept: only a scrambled
 // code made with a random salt that this Worker made itself and keeps in its database.
 
-const HOME_KEY = ""; // the home server's public key (base64), from https://rucksackforever.duckdns.org/api/drops/homekey
+const HOME_KEY = "n86148Y5mb2p5by7dbdCDDTXxTbh/Zo00gtwf0mLgXM="; // the home server's public key (base64), from https://rucksackforever.duckdns.org/api/drops/homekey
 
 const MAX_BODY = 1000000;        // an upload, gzip (bigger: refused)
 const EVERY = 15 * 60;           // one upload per player per 15 minutes
